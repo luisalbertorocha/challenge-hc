@@ -11,21 +11,21 @@ function Home() {
         <div className="flex justify-between w-5/12 m-auto font-modak gap-3">
           <Link to = 'jogos'>
             <div className="flex items-center text-white justify-center gap-4 text-4xl">
-              <img src="src/assets/game-controller-svgrepo-com.svg" alt="ícone de controle de jogo" className="w-8" />
+              <img src="./src/assets/game-controller-svgrepo-com.svg" alt="ícone de controle de jogo" className="w-8" />
               <p>JOGAR</p>
             </div>
           </Link>
           
           <Link to = 'assista'>
             <div className="flex items-center justify-center gap-4 text-white text-4xl">
-              <img src="src/assets/tv-alt-svgrepo-com.svg" alt="ícone de TV" className="w-8" />
+              <img src="./src/assets/tv-alt-svgrepo-com.svg" alt="ícone de TV" className="w-8" />
               <p>ASSISTIR</p>
             </div>
           </Link>
         
           <Link to= 'personagem'>
             <div className="flex items-center justify-center text-white gap-4 text-4xl">
-              <img src="src/assets/edit-2-svgrepo-com.svg" alt="ícone de edição" className="w-8" />
+              <img src="./src/assets/edit-2-svgrepo-com.svg" alt="ícone de edição" className="w-8" />
               <p>MEU PERSONAGEM</p>
             </div>
           </Link>
